@@ -12,7 +12,7 @@ import de.robv.android.xposed.XC_MethodReplacement;
 import de.robv.android.xposed.XposedBridge;
 import de.robv.android.xposed.callbacks.XC_LoadPackage.LoadPackageParam;
 
-class Main implements IXposedHookLoadPackage, IXposedHookZygoteInit
+public class Main implements IXposedHookLoadPackage, IXposedHookZygoteInit
 {
 	@Override
 	public void initZygote( StartupParam startupParam ) throws Throwable
